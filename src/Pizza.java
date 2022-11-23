@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Pizza {
+public interface Pizza {
+    String getDescription();
+    int getPrice();
+
 }
