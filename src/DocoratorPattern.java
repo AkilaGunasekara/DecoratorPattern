@@ -10,7 +10,10 @@ public class DocoratorPattern {
         System.out.println("Type : " + Cheepizza.getDescription() + "Price :" + Cheepizza.getPrice());
 
         Pizza Spizza = new Sausage(Basic);
-        System.out.println("Type : ");
+        System.out.println("Type : " + Spizza.getDescription() + "Price :" + Spizza.getPrice());
+
+        Pizza Tpizza = new Tomato(Basic);
+        System.out.println("Type : " + Tpizza.getDescription() + "Price :" + Tpizza.getPrice());
 
 
     }
